@@ -59,3 +59,72 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# 🛒 Laravel Mini E-Commerce Cart
+
+This is a basic Laravel 10+ project that simulates an e-commerce cart system using Laravel sessions.  
+Built as part of an internship assignment.
+
+---
+
+## 📌 Features
+
+- 3 Hardcoded Products (ID, Name, Price)
+- Add Products to Cart
+- View Cart with:
+  - Product Name
+  - Quantity
+  - Price
+  - Subtotal
+  - Grand Total
+- Modify Cart:
+  - Increase Quantity
+  - Remove Product
+  - Clear Entire Cart
+- All cart logic handled via Laravel `session()`
+- RESTful Routes
+- POST methods for all cart actions
+- Blade templates used for all views
+
+---
+
+## 🎨 Bonus Features
+
+- Bootstrap 5 styling
+- Fake Checkout Button with Thank You message
+- Flash Messages for Success/Failure actions
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository  
+   `git clone https://github.com/hatif-2003/laravel-mini-ecommerce-cart.git`
+
+2. Navigate into the project directory  
+   `cd laravel-mini-ecommerce-cart`
+
+3. Install dependencies  
+   `composer install`
+
+4. Create `.env` file  
+   `cp .env.example .env`
+
+5. Generate application key  
+   `php artisan key:generate`
+
+6. Serve the app  
+   `php artisan serve`
+
+7. Visit `http://localhost:8000` in your browser
+
+> 🧪 No database required since all data is session-based.
+
+---
+
+## ✅ Assignment By
+
+**Hatif Syed**  
+Submitted for internship assignment  
+Date: July 29, 2025  
+
