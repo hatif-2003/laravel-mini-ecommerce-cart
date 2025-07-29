@@ -18,8 +18,8 @@ A simple and clean Laravel-based mini e-commerce application designed for learni
 
 ## 🛠️ Tech Stack
 
-| Technology      | Description                      |
-|----------------|----------------------------------|
+ | Technology      | Description                      |
+ |----------------|----------------------------------|
 | Laravel 12      | PHP Framework (Backend)          |
 | Blade Template | Frontend Templating Engine        |
 | talswin css    | Styling & Responsive Design       |
