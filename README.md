@@ -22,7 +22,7 @@ A simple and clean Laravel-based mini e-commerce application designed for learni
 |----------------|----------------------------------|
 | Laravel 12      | PHP Framework (Backend)          |
 | Blade Template | Frontend Templating Engine        |
-| Bootstrap 5    | Styling & Responsive Design       |
+| talswin css    | Styling & Responsive Design       |
 | MySQL          | Database                          |
 | PHP            | Backend Logic                     |
 
